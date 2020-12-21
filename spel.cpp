@@ -1,11 +1,8 @@
 #include "spel.h"
-#include <stdio.h>
-#include "grid.h"
-#include "veld.h"
-#include "windows.h"
-
+#include "welkom.h"
 
 spel::spel()
 {
-    veld();
+    welkomprint();
+    speelveld();
 }

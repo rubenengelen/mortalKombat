@@ -8,11 +8,10 @@ CONFIG -= app_bundle
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-        grid.cpp \
         main.cpp \
-        mijn.cpp \
+        speelveld.cpp \
         spel.cpp \
-        veld.cpp
+        vakje.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -20,8 +19,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
-    grid.h \
-    mijn.h \
+    speelveld.h \
     spel.h \
-    veld.h \
+    vakje.h \
     welkom.h

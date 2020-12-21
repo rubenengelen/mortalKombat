@@ -1,6 +1,8 @@
 #ifndef SPEL_H
 #define SPEL_H
 
+#include "speelveld.h"
+
 
 class spel
 {

@@ -10,12 +10,6 @@ warrior::warrior(std::string name, int health, int attackMax, int blockMax, int 
     this->aantalHeals = aantalHeals;
 }
 
-//Functie die bepaalt hoeveel damage er gedaan wordt bij een aanval
-//int warrior::attack()
-//{
-//    return std::rand() % this->attackMax;
-//}
-
 //Functie die bepaalt hoeveel damage de speler blockt
 int warrior::block()
 {

@@ -14,7 +14,6 @@ public:
     int genezen;
     int aantalHeals;
     warrior(std::string name, int health, int attackMax, int blockMax, int genezen, int aantalHeals);
-    //int attack();
     int block();
 };
 

@@ -21,5 +21,4 @@ HEADERS += \
     battle.h \
     boss.h \
     keuzes.h \
-    spelverloop.h \
     warrior.h

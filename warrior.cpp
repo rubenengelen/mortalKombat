@@ -2,7 +2,7 @@
 
 warrior::warrior(std::string name, int health, int attackMax, int blockMax, int genezen, int aantalHeals) : boss(name, health, attackMax, blockMax)
 {
-    this->name = name;
+    this->name = name; //15
     this->health = health;
     this->attackMax = attackMax;
     this->blockMax = blockMax;
@@ -15,3 +15,7 @@ int warrior::block()
 {
     return std::rand() % this->blockMax;
 }
+
+warrior::warrior(){};
+
+warrior::~warrior(){};

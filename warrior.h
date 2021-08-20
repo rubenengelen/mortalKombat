@@ -5,16 +5,13 @@
 
 class warrior : public boss
 {
-private:
-    int attackMax;
-    int blockMax;
 public:
-    std::string name;
-    int health;
     int genezen;
     int aantalHeals;
     warrior(std::string name, int health, int attackMax, int blockMax, int genezen, int aantalHeals);
     int block();
+    warrior(); //11
+    ~warrior(); //14
 };
 
 #endif // WARRIOR_H

@@ -7,7 +7,7 @@ using namespace std;
 // functie die speler zijn karakter laat kiezen
 int strijder()
 {
-    std::string warriorKeuze;
+    std::string warriorKeuze; //26
     int strijder;
     for(;;)
     {
